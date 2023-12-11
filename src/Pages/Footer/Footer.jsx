@@ -71,7 +71,9 @@ const Footer = () => {
             </div>
           </nav>
           <aside>
-            <p>Copyright © 2023 - All right reserved by S H SuHan</p>
+            <p>
+              Copyright © 2023 - All right reserved by <span className="text-orange-700 font-bold">S H SuHan</span>
+            </p>
           </aside>
         </footer>
       </div>

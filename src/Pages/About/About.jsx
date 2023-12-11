@@ -5,6 +5,7 @@ import "react-tabs/style/react-tabs.css";
 import Personal from "./Personal";
 import Education from "./Education";
 import Hobby from "./Hobby";
+import Experience from "./Experience";
 
 
 
@@ -36,6 +37,13 @@ const About = () => {
                     "text-white font-bold py-2 px-4 rounded border border-purple-700  hover:bg-purple-700"
                   }
                 >
+                  Experience
+                </Tab>
+                <Tab
+                  className={
+                    "text-white font-bold py-2 px-4 rounded border border-purple-700  hover:bg-purple-700"
+                  }
+                >
                   Hobby
                 </Tab>
               </TabList>
@@ -45,6 +53,9 @@ const About = () => {
               </TabPanel>
               <TabPanel>
                 <Education></Education>
+              </TabPanel>
+              <TabPanel>
+                <Experience></Experience>
               </TabPanel>
               <TabPanel>
                 <Hobby></Hobby>
