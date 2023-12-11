@@ -1,0 +1,74 @@
+[{
+        "_id" : "1",
+        "name": "Food Store",
+        "img" : "https://i.ibb.co/rZpHz6g/students-study-1-jpg.webp",
+        "description": "On this website, user and vendors can sign up and log in. The seller can sell the product and the user can buy the product. The website is fully responsive.",
+        "technology": [
+            "HTML5",
+            "CSS3",
+            "JS",
+            "React",
+            "Tailwind CSS",
+            "Node.js",
+            "Firebase",
+            "MongoDB",
+            "Express.js"
+        ],
+        "type": "dynamic",
+        "githubLink": "https://github.com/suhanurrahman007/Food-Store-Client",
+        "liveLink": "https://food-store-2a07d.web.app/"
+    },
+    {
+        "_id": "2",
+        "name": "Game Zone",
+        "img" : "https://i.ibb.co/rZpHz6g/students-study-1-jpg.webp",
+        "description": "GameZone Web is an immersive online platform tailored for gaming enthusiasts, providing a central hub for gaming news, community interaction, and an extensive library of games.",
+        "technology": [
+            "HTML5",
+            "CSS3"
+        ],
+        "type": "static",
+        "githubLink": "https://github.com/suhanurrahman007/Gamer-Zone",
+        "liveLink": "https://suhanurrahman007.github.io/Gamer-Zone/"
+    },
+    {
+        "_id": "3",
+        "name": "United A forum type Project",
+        "img" : "https://i.ibb.co/rZpHz6g/students-study-1-jpg.webp",
+        "description": "UnitedA Forum is a dynamic and inclusive online community designed to bring people together for meaningful discussions, knowledge sharing, and community engagement.",
+        "technology": [
+            "HTML5",
+            "CSS3",
+            "JS",
+            "React",
+            "Tailwind CSS",
+            "Node.js",
+            "Firebase",
+            "MongoDB",
+            "Express.js"
+        ],
+        "type": "dynamic",
+        "githubLink": "https://github.com/suhanurrahman007/United-Client",
+        "liveLink": "https://united-e19cb.web.app/"
+    },
+    {
+        "_id": "4",
+        "name": "Online Group Study",
+        "img" : "https://i.ibb.co/rZpHz6g/students-study-1-jpg.webp",
+        "description": " CollaborativeLearnHub is a web platform designed to facilitate seamless group study and assignment submission for students. The platform brings together students working on the same assignments, providing a collaborative environment to enhance learning.",
+        "technology": [
+            "HTML5",
+            "CSS3",
+            "JS",
+            "React",
+            "Tailwind CSS",
+            "Node.js",
+            "Firebase",
+            "MongoDB",
+            "Express.js"
+        ],
+        "type": "dynamic",
+        "githubLink": "https://github.com/suhanurrahman007/FoporBaz-Client",
+        "liveLink": "https://foporbaz.web.app"
+    }
+]

@@ -1,5 +1,6 @@
 import Container from "../../components/Container";
 import img from "../../assets/Profile.png"
+import { Link } from "react-router-dom";
 
 const Home = () => {
     return (
@@ -19,11 +20,11 @@ const Home = () => {
               </p>
               <div className="space-x-5">
                 <button className="bg-gradient-to-r from-purple-500 to-blue-500 hover:from-purple-700 hover:to-blue-700 text-white font-bold py-2 px-4 rounded">
-                  Get Started
+                  Hire Me
                 </button>
-                <button className=" text-white font-bold py-2 px-4 rounded border border-purple-700  hover:bg-purple-700">
-                  Get Started
-                </button>
+                <Link to={"/about"} className=" text-white font-bold py-2 px-4 rounded border border-purple-700  hover:bg-purple-700">
+                  About Me
+                </Link>
               </div>
             </div>
           </div>

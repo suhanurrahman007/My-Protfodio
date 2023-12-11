@@ -1,11 +1,6 @@
 import { Link, NavLink } from "react-router-dom";
 import logo from "../../assets/logo/logo.png";
-import { AwesomeButtonProgress } from "react-awesome-button";
-import "react-awesome-button/dist/styles.css";
-
-
- 
-
+import Footer from "../../Pages/Footer/Footer";
 
 const MainLayout = ({ children }) => {
   const linkStyle = (isActive, isPending) => {
@@ -17,21 +12,23 @@ const MainLayout = ({ children }) => {
   const commonClasses =
     "px-4  py-2 rounded-lg hover:underline hover:scale-110 hover:shadow-lg transition delay-150 duration-300 ease-in-out";
 
-  const links = ["", "about", "projects", "skill", "contact"].map((path, index) => {
-    const text =
-      index === 0 ? "Home" : path.charAt(0).toUpperCase() + path.slice(1);
-    return (
-      <NavLink
-        key={path}
-        to={`/${path}`}
-        className={({ isActive, isPending }) =>
-          `${linkStyle(isActive, isPending)} ${commonClasses}`
-        }
-      >
-        {text}
-      </NavLink>
-    );
-  });
+  const links = ["", "about", "projects", "skill", "contact"].map(
+    (path, index) => {
+      const text =
+        index === 0 ? "Home" : path.charAt(0).toUpperCase() + path.slice(1);
+      return (
+        <NavLink
+          key={path}
+          to={`/${path}`}
+          className={({ isActive, isPending }) =>
+            `${linkStyle(isActive, isPending)} ${commonClasses}`
+          }
+        >
+          {text}
+        </NavLink>
+      );
+    }
+  );
   return (
     <div className="drawer">
       <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
@@ -69,13 +66,21 @@ const MainLayout = ({ children }) => {
             <ul className="menu menu-horizontal">{links}</ul>
           </div>
           <div>
-            <AwesomeButtonProgress type="primary" size="medium">
-              Button
-            </AwesomeButtonProgress>
+            <a
+              href="/public/Self.pdf"
+              target="_blank"
+              className=" text-white font-bold py-2 px-4 rounded border border-purple-700  hover:bg-purple-700"
+              download={"Self.pdf"}
+            >
+              RESUME
+            </a>
           </div>
         </div>
         {/* Page content here */}
         {children}
+        <div>
+          <Footer></Footer>
+        </div>
       </div>
       <div className="drawer-side">
         <label
