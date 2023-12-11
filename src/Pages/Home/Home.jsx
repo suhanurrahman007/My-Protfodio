@@ -7,9 +7,10 @@ const Home = () => {
         <div className="hero min-h-screen bg-[#150F2D]">
           <div className="hero-content flex-col lg:flex-row-reverse">
             <img src={img} className="max-w-sm rounded-lg shadow-2xl" />
-            <div className="space-y-5 w-1/2">
-              <h1 className="text-5xl font-bold">Hello......!</h1>
-              <h3>Front-End Web Developer</h3>
+            <div className="space-y-5 md:w-1/2">
+              <p className="text-purple-600">Hey there,</p>
+              <h1 className="text-5xl font-bold">Suhanur Rahman</h1>
+              <h3 className="text-blue-600">Front-End Web Developer</h3>
               <p className="py-6 text-justify">
                 I am Suhanur Rahman. I am a front-end web developer. I have been
                 working in this sector for the past 1+ years. I consider coding
