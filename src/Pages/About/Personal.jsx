@@ -8,7 +8,13 @@ import {
 
 const Personal = () => {
   return (
-    <div className="space-y-7 px-3">
+    <div
+      data-aos="fade-zoom-in"
+      data-aos-easing="ease-in-back"
+      data-aos-delay="300"
+      data-aos-offset="0"
+      className="space-y-7 px-3"
+    >
       <p className="text-md text-justify ">
         My full name is Suhanur Rahman. Suhan is my nickname. I live in
         Mymensingh. Currently, I am Study in an Programming hero as a front-end

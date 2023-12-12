@@ -1,11 +1,30 @@
-import { FaFacebook, FaGithub, FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa";
+import {
+  FaFacebook,
+  FaGithub,
+  FaInstagram,
+  FaLinkedinIn,
+  FaTwitter,
+  FaPhoneAlt,
+  FaMobile,
+} from "react-icons/fa";
 import Container from "../../components/Container";
+import { MdMarkEmailRead } from "react-icons/md";
+import { Helmet } from "react-helmet";
 
 const Contact = () => {
     return (
       <Container>
-        <div className="flex gap-10">
-          <div className="w-2/3">
+        <Helmet>
+          <title>SuHan - Contact</title>
+        </Helmet>
+        <div className="lg:flex gap-10">
+          <div
+            data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="300"
+            data-aos-offset="0"
+            className="lg:w-2/3"
+          >
             <form>
               <div className="space-y-5">
                 <div className="form-control">
@@ -63,7 +82,12 @@ const Contact = () => {
               </div>
             </form>
           </div>
-          <div className="w-1/3 bg-[#0D0D21] p-5 rounded-md">
+          <div
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+            className="lg:w-1/3 bg-[#0D0D21] p-5 rounded-md"
+          >
             <h2 className="text-2xl font-bold text-purple-800">
               Contact Me :{" "}
             </h2>
@@ -72,15 +96,23 @@ const Contact = () => {
               University
             </p>
 
-            <p className="mt-8 text-sm">
-              <span className="font-bold mr-2">Email : </span>{" "}
+            <p className="flex items-center mt-8 text-sm">
+              <span className="font-bold mr-2 text-2xl text-blue-700">
+                <MdMarkEmailRead></MdMarkEmailRead>{" "}
+              </span>{" "}
               suhanur35-448@diu.edu.bd
             </p>
-            <p className="py-3 text-sm">
-              <span className="font-bold mr-2">Phone : </span> +880193841356
+            <p className="flex items-center py-3 text-sm">
+              <span className="font-bold mr-2 text-2xl text-green-600">
+                <FaPhoneAlt></FaPhoneAlt>{" "}
+              </span>{" "}
+              +880193841356
             </p>
-            <p className="text-sm">
-              <span className="font-bold mr-2">Mobile : </span> +8801824139665
+            <p className="flex items-center text-sm">
+              <span className="font-bold mr-2 text-2xl text-purple-800">
+                <FaMobile></FaMobile>{" "}
+              </span>{" "}
+              +8801824139665
             </p>
 
             <div className="flex space-x-7 pt-10">

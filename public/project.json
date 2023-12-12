@@ -1,7 +1,7 @@
 [{
         "_id" : "1",
         "name": "Food Store",
-        "img" : "https://i.ibb.co/rZpHz6g/students-study-1-jpg.webp",
+        "img": "https://i.ibb.co/q9fjZp4/food-store.png",
         "description": "On this website, user and vendors can sign up and log in. The seller can sell the product and the user can buy the product. The website is fully responsive.",
         "technology": [
             "HTML5",
@@ -21,7 +21,7 @@
     {
         "_id": "2",
         "name": "Game Zone",
-        "img" : "https://i.ibb.co/rZpHz6g/students-study-1-jpg.webp",
+        "img": "https://i.ibb.co/dMF2xsk/game-zone.png",
         "description": "GameZone Web is an immersive online platform tailored for gaming enthusiasts, providing a central hub for gaming news, community interaction, and an extensive library of games.",
         "technology": [
             "HTML5",
@@ -34,7 +34,7 @@
     {
         "_id": "3",
         "name": "United A forum type Project",
-        "img" : "https://i.ibb.co/rZpHz6g/students-study-1-jpg.webp",
+        "img": "https://i.ibb.co/wrGmwZj/united.png",
         "description": "UnitedA Forum is a dynamic and inclusive online community designed to bring people together for meaningful discussions, knowledge sharing, and community engagement.",
         "technology": [
             "HTML5",
@@ -54,7 +54,7 @@
     {
         "_id": "4",
         "name": "Online Group Study",
-        "img" : "https://i.ibb.co/rZpHz6g/students-study-1-jpg.webp",
+        "img": "https://i.ibb.co/64rGQBC/foporbaz.png",
         "description": " CollaborativeLearnHub is a web platform designed to facilitate seamless group study and assignment submission for students. The platform brings together students working on the same assignments, providing a collaborative environment to enhance learning.",
         "technology": [
             "HTML5",

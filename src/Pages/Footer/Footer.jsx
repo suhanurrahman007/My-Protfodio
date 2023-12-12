@@ -30,9 +30,9 @@ const Footer = () => {
     );
     return (
       <div>
-        <footer className="footer footer-center p-10 bg-[#0D0D21] text-white rounded">
+        <footer className="footer footer-center py-7 md:p-10 bg-[#0D0D21] text-white rounded">
           <nav className="grid grid-flow-col gap-4">
-            <div className="flex-1 hidden lg:flex lg:items-center justify-center">
+            <div className="flex-1 lg:flex lg:items-center justify-center">
               <ul className="menu menu-horizontal">{links}</ul>
             </div>
           </nav>

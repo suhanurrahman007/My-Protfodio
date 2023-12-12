@@ -5,7 +5,13 @@ import { SiExpress } from "react-icons/si";
 
 const BackEnd = () => {
   return (
-    <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-5">
+    <div
+      data-aos="fade-zoom-in"
+      data-aos-easing="ease-in-back"
+      data-aos-delay="300"
+      data-aos-offset="0"
+      className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-5"
+    >
       <div className="card bg-[#0D0D21] shadow-xl p-6 rounded-md">
         <figure className="mx-auto mb-4 text-7xl text-green-700">
           <IoLogoNodejs />

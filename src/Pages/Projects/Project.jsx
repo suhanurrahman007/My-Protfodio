@@ -2,9 +2,14 @@ const Project = ({ project }) => {
     console.log(project.img);
   const { name, description, technology, githubLink, liveLink, img } = project;
   return (
-    <div className="card bg-[#0D0D21] card-compact shadow-xl rounded-lg">
+    <div
+      data-aos="flip-left"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="2000"
+      className="card bg-[#0D0D21] card-compact shadow-xl rounded-lg"
+    >
       <figure>
-        <img src={img} alt="Shoes" />
+        <img src={img} alt="project" />
       </figure>
       <div className="card-body">
         <h2 className="card-title">{name}</h2>

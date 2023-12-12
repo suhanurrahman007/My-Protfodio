@@ -1,11 +1,18 @@
 
 const Experience = () => {
     return (
-      <div className="space-y-3">
+      <div
+        data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="300"
+        data-aos-offset="0"
+        className="space-y-3"
+      >
         <p className="text-xs text-gray-400 text-center mb-7">
-          I am proficient in developing full-stack web applications using React,
-          Firebase, MongoDB, Node.js, and styling with Tailwind CSS, along with
-          expertise in HTML, CSS, and JavaScript.
+          I have not any job experience. I am proficient in developing
+          MERN-stack web applications using React, Firebase, MongoDB, Node.js,
+          and styling with Tailwind CSS, along with expertise in HTML, CSS, and
+          JavaScript.
         </p>
         <div className="relative">
           <progress

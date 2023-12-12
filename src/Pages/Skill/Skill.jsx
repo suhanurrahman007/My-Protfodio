@@ -4,13 +4,17 @@ import FrontEnd from "./FrontEnd";
 import BackEnd from "./BackEnd";
 import Tools from "./Tools";
 import Learning from "./Learning";
+import { Helmet } from "react-helmet";
 
 const Skill = () => {
   return (
     <Container>
+      <Helmet>
+        <title>SuHan - Skill</title>
+      </Helmet>
       <div>
         <Tabs>
-          <TabList className={"flex gap-5 justify-center mb-8"}>
+          <TabList className={"flex gap-2 md:gap-5 justify-center mb-8"}>
             <Tab
               className={
                 "text-white font-bold py-2 px-4 rounded border border-purple-700  hover:bg-purple-700"
